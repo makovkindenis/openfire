@@ -1,0 +1,2 @@
+# openfire
+Dockerized openfire
