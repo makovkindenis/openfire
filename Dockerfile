@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER d.makovkin@ceteralabs.com
 
-ENV OPENFIRE_VERSION=4_1_2
+ENV OPENFIRE_VERSION=4_1_3
 ENV JAVA_HOME /opt/java
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y locales wget
